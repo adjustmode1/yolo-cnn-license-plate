@@ -43,7 +43,7 @@ class E2E(object):
         # Input image or frame
         self.image = image
 
-        for coordinate in self.extractLP():     # detect license plate by yolov3
+        for coordinate in self.extractLP(): 
             print('test 1111')
             self.candidates = []
 
